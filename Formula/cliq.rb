@@ -3,7 +3,7 @@ class Cliq < Formula
     version "0.4.1"
     desc "Open frequently accessed memorable links from cli"
     homepage "https://github.com/santhosh-chinnasamy/cliq#cliq"
-    url "https://github.com/santhosh-chinnasamy/cliq/releases/download/v#{version}/cliq-v#{version}-aarch64-apple-darwin.tar.gz"
+    url "https://github.com/santhosh-chinnasamy/cliq/releases/download/v0.4.1/cliq-v0.4.1-aarch64-apple-darwin.tar.gz"
     sha256 "ebd200542491ca248e32214c937ec5800b227ffb7e18f8162bc53edf4ca2522a"
   
     def install
