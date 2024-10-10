@@ -2,15 +2,15 @@
 
 ## How do I install these formulae?
 
-`brew install santhosh-chinnasamy/cliq/<formula>`
+`brew install santhosh-chinnasamy/cliq/cliq`
 
-Or `brew tap santhosh-chinnasamy/cliq` and then `brew install <formula>`.
+Or `brew tap santhosh-chinnasamy/cliq` and then `brew install cliq`.
 
 Or, in a [`brew bundle`](https://github.com/Homebrew/homebrew-bundle) `Brewfile`:
 
 ```ruby
 tap "santhosh-chinnasamy/cliq"
-brew "<formula>"
+brew "cliq"
 ```
 
 ## Documentation
