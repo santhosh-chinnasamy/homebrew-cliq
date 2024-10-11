@@ -1,19 +1,11 @@
 class Cliq < Formula
-    name "cliq"
-    version "0.4.1"
-    desc "Open frequently accessed memorable links from cli"
-    homepage "https://github.com/santhosh-chinnasamy/cliq#cliq"
-    url "https://github.com/santhosh-chinnasamy/cliq/releases/download/v0.4.1/cliq-v0.4.1-aarch64-apple-darwin.tar.gz"
-    sha256 "ebd200542491ca248e32214c937ec5800b227ffb7e18f8162bc53edf4ca2522a"
-  
-    def install
-      bin.install "cliq"
-    end
+  desc "open frequently accessed memorable shorten urls from cli"
+  homepage ""
+  url "https://github.com/santhosh-chinnasamy/cliq/releases/download/v0.4.1/cliq-v0.4.1-aarch64-apple-darwin.tar.gz"
+  sha256 "ebd200542491ca248e32214c937ec5800b227ffb7e18f8162bc53edf4ca2522a"
+  license "MIT"
 
-    def caveats
-      <<~EOS
-        Run `cliq --help` to get started
-      EOS
-    end
+  def install
+    bin.install "cliq"
   end
-  
+end
