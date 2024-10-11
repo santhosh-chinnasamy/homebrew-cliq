@@ -7,7 +7,6 @@ class Cliq < Formula
   license "MIT"
 
   on_macos do
-    puts "macOS"
     on_arm do
         url "https://github.com/santhosh-chinnasamy/cliq/releases/download/v#{version}/cliq-v#{version}-aarch64-apple-darwin.tar.gz"
         sha256 "ebd200542491ca248e32214c937ec5800b227ffb7e18f8162bc53edf4ca2522a"
