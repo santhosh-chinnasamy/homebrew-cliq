@@ -1,4 +1,6 @@
-# Santhosh-chinnasamy Cliq
+# Cliq - homebrew install
+
+This repository contains the `cliq` homebrew formula for [cliq](https://github.com/santhosh-chinnasamy/cliq).
 
 ## How do I install these formulae?
 
