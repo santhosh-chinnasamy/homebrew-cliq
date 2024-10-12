@@ -1,5 +1,5 @@
 class Cliq < Formula
-  desc "open frequently accessed memorable shorten urls from cli"
+  desc "Open frequently accessed memorable shorten urls from cli"
   homepage "https://github.com/santhosh-chinnasamy/cliq#cliq"
   version "0.4.1"
   url "https://github.com/santhosh-chinnasamy/cliq/releases/download/v#{version}/cliq-v#{version}-aarch64-apple-darwin.tar.gz"
@@ -32,5 +32,9 @@ class Cliq < Formula
 
   def install
     bin.install "cliq"
+  end
+
+  test do
+    assert_match "cliq #{version}", shell_output("#{bin}/cliq --version")
   end
 end
